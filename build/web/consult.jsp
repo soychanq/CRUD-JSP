@@ -47,6 +47,8 @@
             action = SQL.executeQuery("select * from usuarios");
             while(action.next()){
         %>
+            
+            
                <tr>
                    <th><%=action.getString(1)%></th> 
                    <td><%=action.getString(2)%></td> 
